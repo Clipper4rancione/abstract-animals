@@ -16,6 +16,7 @@ public class Main {
         aquila.dormi();
         aquila.mangia();
         aquila.verso();
+        aquila.vola();
 
         Passerotto passerotto = new Passerotto("Franco il passero");
         System.out.println("************");
@@ -23,6 +24,7 @@ public class Main {
         passerotto.dormi();
         passerotto.mangia();
         passerotto.verso();
+        passerotto.vola();
 
         Delfino delfino = new Delfino("Delfiny");
         System.out.println("************");
@@ -30,5 +32,6 @@ public class Main {
         delfino.dormi();
         delfino.mangia();
         delfino.verso();
+        delfino.nuota();
     }
 }
