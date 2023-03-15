@@ -21,7 +21,7 @@ public abstract class Animale {
     // ABSTRACT METHODS
 
     public void dormi(){
-        System.out.print("ZzZzZzz");
+        System.out.println("Sto dormendo: " + "ZzZzZzz");
     }
 
     public abstract void verso();
