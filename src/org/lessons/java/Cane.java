@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Cane extends Animale implements IAnimale{
+public class Cane extends Animale{
 
     public Cane(String name) {
         super(name);
@@ -12,7 +12,7 @@ public class Cane extends Animale implements IAnimale{
     }
 
     @Override
-    public void alimentazione() {
+    public void mangia() {
         System.out.println("Crocchette");
     }
 }

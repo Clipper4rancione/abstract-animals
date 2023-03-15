@@ -2,7 +2,7 @@ package org.lessons.java;
 
 public abstract class Animale {
 
-    String name;
+    private String name;
 
     // COSTRUTTORE
     public Animale(String name) {
@@ -20,11 +20,11 @@ public abstract class Animale {
 
     // ABSTRACT METHODS
 
-    public void dorme(){
+    public void dormi(){
         System.out.print("ZzZzZzz");
     }
 
     public abstract void verso();
-    public abstract void alimentazione();
+    public abstract void mangia();
 
 }
